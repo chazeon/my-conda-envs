@@ -1,0 +1,17 @@
+name: dpmd
+
+channels:
+  - deepmodeling
+  - nvidia
+  - conda-forge
+
+dependencies:
+
+  - python=3.9
+
+  - cudatoolkit=11.3
+  - deepmd-kit=*[build=*gpu]
+  - libdeepmd=*[build=*gpu]
+  - lammps-dp
+  - horovod
+  

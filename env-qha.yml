@@ -1,0 +1,12 @@
+name: qha
+channels:
+  - conda-forge
+dependencies:
+  - numba
+  - numpy
+  - scipy
+  - matplotlib
+  - pip:
+    - qha
+    - git+https://github.com/MineralsCloud/cij.git
+ 
